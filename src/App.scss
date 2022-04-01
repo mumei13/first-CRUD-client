@@ -1,0 +1,47 @@
+#root {
+  min-height: 100%;
+  background: url(../src/assets/backgroundloggedin.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#navbar {
+  position: fixed;
+  width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  z-index: 999;
+}
+
+.has-radius {
+  border-radius: 10px !important;
+}
+
+.ant-row {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+#navbar {
+  Button {
+    margin-left: 5px;
+  }
+  .left-menu {
+    display: block;
+  }
+  .menu-right {
+    margin-right: 0px !important;
+    margin-left: auto;
+  }
+  span.anticon.anticon-logout.ant-menu-item-icon {
+    transform: translateY(-2px);
+  }
+}
+
+//Dashboard
+.middle-title {
+  text-align: center;
+}
+
+.button-has-link .anticon.anticon-caret-right svg {
+  transform: translateY(-4px) !important;
+}

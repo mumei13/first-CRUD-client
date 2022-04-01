@@ -1,0 +1,31 @@
+#navbar {
+  .welcome-user:hover {
+    cursor: default;
+    color: #262626;
+  }
+  .welcome-user::after {
+    display: none;
+  }
+  .menu-right {
+    background: rgb(240, 39, 39);
+    color: white;
+    font-weight: 600;
+  }
+  .menu-right:hover {
+    text-decoration: none;
+    background: rgb(247, 110, 110);
+  }
+}
+.menu-right::after {
+  display: none;
+}
+@media screen and(max-width: 767px) {
+  .hide-on-mobile {
+    display: none;
+  }
+  .menu-right {
+    span.ant-menu-title-content {
+      display: none;
+    }
+  }
+}

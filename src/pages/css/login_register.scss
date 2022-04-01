@@ -1,0 +1,34 @@
+.body {
+  background: url("../../assets/background.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.form-middle {
+  h1 {
+    text-align: center;
+    padding-top: 80px;
+  }
+  .ant-col.ant-col-18.ant-form-item-control {
+    margin: auto;
+  }
+  .ant-btn.ant-btn-default {
+    margin: auto;
+    display: block;
+  }
+
+  #basic {
+    max-width: 500px;
+    margin: auto;
+
+    .btn {
+      margin-left: 10px;
+      background: rgb(101, 198, 223) !important;
+      color: #ffffff !important;
+    }
+
+    .btn-login {
+      margin: auto;
+    }
+  }
+}
